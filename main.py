@@ -25,11 +25,11 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('¡Hola! Soy un bot')
     elif message.content.startswith('$smile'):
-        await message.channel.send(gen_emodji())
+        await message.channel.send(logic.gen_emodji())
     elif message.content.startswith('$coin'):
-        await message.channel.send(flip_coin())
+        await message.channel.send(logic.flip_coin())
     elif message.content.startswith('$pass'):
-        await message.channel.send(gen_pass(10))
+        await message.channel.send(logic.gen_pass(10))
     elif message.content.startswith('$heh'):
         if len(message.content) > 4:
             count_heh = int(message.content[4:])
