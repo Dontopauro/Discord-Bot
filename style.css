@@ -1,0 +1,11 @@
+body {
+    font-family: Futura,  sans-serif; /* Familia de fuentes */
+    font-size: 21px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #9adb87; /* El color del fondo de la página web */
+    color: #000000; /* El color del texto*/ 
+}
+h1 {
+    color: #a80000; /*red*/
+    font-size: 34px; /* El tamaño de la fuente de la cabecera */
+    font-family: Futura, sans-serif; /* La familia tipográfica utilizada en la cabecera */
+}
