@@ -1,11 +1,40 @@
 body {
-    font-family: Inter; /* Familia de fuentes */
-    font-size: 21px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #5988FF; /* El color del fondo de la página web */
-    color: #FD98FB; /* El color del texto*/ 
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    background-color: #5988FF;
+    color: #FD98FB;
+    text-align: center;
 }
 h1 {
-    color: #D6FF6B; /*red*/
-    font-size: 34px; /* El tamaño de la fuente de la cabecera */
-    font-family: Inter; /* La familia tipográfica utilizada en la cabecera */
+    color: #D6FF6B;
+    font-size: 24px;
+    font-family: Inter,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
+  h1:hover {
+    animation: color-change 3s infinite;
+    color: #D6FF6B;
+    font-size: 24px;
+    font-family: Inter,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ @keyframes color-change {
+            0% {
+                color: red;
+            }
+
+            50% {
+                color: blue;
+            }
+
+            100% {
+                color: green;
+            }
+        }
+p {
+    line-height: 1.5;
+    margin: 15px;
+}
+
